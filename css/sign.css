@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 0px 30px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(275, 192, 400);
+  
+    font-size: 35px;
+    text-decoration: underline;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    padding: 5px 0px;
+    width: 100%;
+    margin: 15px 0px;
+  }
+  input[type="password"] {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    padding: 5px 0px;
+    width: 100%;
+    margin: 15px 0px;
+  }
+  input[type="submit"] {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 40px 0px;
+    background-color: rgb(275, 192, 400);
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(255, 192, 200);
+  }
+  
+  .alt {
+    font-size: 25px;
+    color: white;
+  }
+  
+  a {
+    font-size: 25px;
+    color: white;
+  }
+  a:hover {
+    color: pink;
+  }
+  
